@@ -2,6 +2,7 @@ h1, h2.subtitulo {
     text-align: center;
 }
 img.escudo {
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
