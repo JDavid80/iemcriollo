@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
 }
-h1, h2.subtitulo {
-    text-align: center;
+h1 {
+    text-align: left;
+    display: block;
 }
 .titulo {
-    color: gray;
+    color: white;
     position: absolute;
     top: 13px;
     left: 20px;
@@ -47,12 +48,12 @@ header nav ul li .children {
     display: none;
     background: #011826;
     position: absolute;
-    width: 150%;
+    width: 220%;
     text-align: left;
 }
 header nav ul li .children li {
     display: block;
-    overflow: hidder;
+    overflow: hidden;
     border-bottom: 1px solid rgba(255,255,255,.5);
 }
 header nav ul li .children li a {
@@ -69,7 +70,7 @@ header nav ul li .childre li a span {
    
 } */
 .down-sedes i {
-     position: relative;
+    position: relative;
     top: 3px;
     margin-left: 10px;
     margin-right: 0;
@@ -97,7 +98,7 @@ div.content-escudo {
         top: 0;
         background: rgb(222,1,8);
     }
-    .menu-bar .bt-menu {
+    .menu_bar .bt-menu {
         display: block;
         padding: 20px;
         color: #FFF;
