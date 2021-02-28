@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1, h2.subtitulo {
+    text-align: center;
+}
+.titulo {
+    color: gray;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+body {
+    background: #FEFEFE;
+}
+.menu_bar {
+    display: none;
+}
+header {
+    width: 100%;
+}
+header nav {
+    background: rgb(222,1,8);
+    z-index: 10;
+    width: 100%;
+    margin: 0 auto;
+}
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+header nav ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+header nav ul li a span {
+    margin-right: 10px;
+}
+header nav ul li .children {
+    display: none;
+    background: #011826;
+    position: absolute;
+    width: 150%;
+    text-align: left;
+}
+header nav ul li .children li {
+    display: block;
+    overflow: hidder;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+header nav ul li .children li a {
+    display: block;
+}
+img.escudo {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+div.content-escudo {
+    margin: 0 auto;
+    width: 50%;
+}

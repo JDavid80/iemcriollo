@@ -4,27 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - I.E.M. Criollo</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="icons/all.css">
     <link rel="icon" href="img/escudo_16x18.jpg" type="image/jpg">
 </head>
 <body>
     <header>
         <div class="menu_bar">
-            <a href="#" class="bt-menu"></a>
+            <a class="bt-menu" href="#"><span class="icon-list"></span>I.E.M. Criollo</a>
         </div>
         <nav>
             <div class="titulo">
-                <h1>Institución Educativa Municipal Criollo</h1>
+                <img src="img/escudo_menu.jpg" alt="Escudo Menú">
+                <h1>I.E.M. Criollo</h1>
             </div>
+            <ul>
+                <li><a href="index.html"><span class="fas fa-home"></i></span>Inicio</a></li>
+                <li class="submenu"><a href="sedes.html"><span class="fas fa-laptop-house"></span> Sedes</a>
+                    <ul id="children_id" class="children" onmousewheel="colorRojo()">
+                        <li><a href="sede-principal.html">Sede Principal<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-palmar.html">Sede Palmar<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-albania.html">Sede Albania<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-cabuyo.html">Sede Cabuyo<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-castilla.html">Sede Castilla<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-contador.html">Sede Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-ingaly.html">Sede Ingaly<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-jardin.html">Sede Jardín<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-libano.html">Sede Líbano<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-contador.html">Sede Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-palmeras.html">Sede Palmeras<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-recuerdo.html">Sede Recuerdo<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-rincon-de-contador.html">Sede Rincon de Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-versalles.html">Sede Versalles<span class="fas fa-laptop-house"></span></a></li>
+                    </ul>
+                </li>
+                <li><a href="docentes.html"><span class="fas fa-users"></span> Docentes</a></li>
+                <li><a href="contactanos.html"><span class="fas fa-phone"></span>Contactanos</a></li>
+            </ul>
         </nav>
     </header>
-    <h1>Institución Educativa Municipal Criollo</h1>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="sedes.html">Sedes</a></li>
-        <li><a href="docentes.html">Docentes</a></li>
-        <li><a href="contactanos.html"></a> Contactanos</li>
-    </ul>
     <div class="content-escudo">
         <img class="escudo"src="img/escudo.jpg" alt="Escudo IEM">
     </div>
